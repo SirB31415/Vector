@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FABA015B201FB120002BE974 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABA015A201FB120002BE974 /* main.cpp */; };
+		FABA0163201FB182002BE974 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABA0161201FB182002BE974 /* Controller.cpp */; };
+		FABA0166201FB191002BE974 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FABA0164201FB191002BE974 /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		FABA0157201FB11F002BE974 /* Vector */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vector; sourceTree = BUILT_PRODUCTS_DIR; };
-		FABA015A201FB120002BE974 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FABA0161201FB182002BE974 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		FABA0162201FB182002BE974 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		FABA0164201FB191002BE974 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		FABA0159201FB11F002BE974 /* Vector */ = {
 			isa = PBXGroup;
 			children = (
-				FABA015A201FB120002BE974 /* main.cpp */,
+				FABA0161201FB182002BE974 /* Controller.cpp */,
+				FABA0162201FB182002BE974 /* Controller.hpp */,
+				FABA0164201FB191002BE974 /* Runner.cpp */,
 			);
 			path = Vector;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABA015B201FB120002BE974 /* main.cpp in Sources */,
+				FABA0163201FB182002BE974 /* Controller.cpp in Sources */,
+				FABA0166201FB191002BE974 /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
